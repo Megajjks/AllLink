@@ -1,0 +1,30 @@
+.sidebar_wrapper{
+  border: solid 2px red;
+  display:grid;
+  grid-template-rows: minmax(20px, 26px) 1fr minmax(20px, 88px) minmax(20px, 24px);
+  padding:2rem;
+}
+
+.sidebar--logo{
+  border: solid 2px rgb(112, 184, 202);
+  display: flex;
+  font-weight:700;
+  font-size: 1.2rem;
+
+}
+.sidebar--logo > p{
+  color: #000000;
+  
+}
+
+.sidebar--option_list{
+  border: solid 2px rgb(182, 238, 14);
+}
+
+.sidebar--avatar{
+    border: solid 2px rgb(242, 18, 182);
+}
+
+.sidebar--logout{
+    border: solid 2px rgb(17, 101, 185);
+}
